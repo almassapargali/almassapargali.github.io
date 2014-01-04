@@ -14,3 +14,9 @@ a {
 a:hover {
     color: #4a4573
 }
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    font-size: 1.5em;
+  }
+}
