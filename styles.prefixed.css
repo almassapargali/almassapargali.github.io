@@ -17,5 +17,6 @@ a:hover {
 @media only screen and (max-device-width: 480px) {
   body {
     font-size: 1.5em;
+    margin: 2px 0 0 5px
   }
 }
