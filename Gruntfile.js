@@ -3,9 +3,13 @@ module.exports = function (grunt) {
 	grunt.initConfig({ 
         watch: {
           css: {
-              files: ['styles.css'],
-              tasks: ['autoprefixer', 'cssmin']
-          }  
+            files: ['styles.css'],
+            tasks: ['autoprefixer', 'cssmin']
+          },
+          html: {
+            files: ['index.src.html'],
+            tasks: ['htmlmin']
+          }
         },
         autoprefixer: {
           css: {
