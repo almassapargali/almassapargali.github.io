@@ -31,9 +31,12 @@ a {
 }
 @media only screen and (max-device-width: 480px) {
     body {
-    font-size: 1em;
+        font-size: 1.2em;
+    }
+    p {
+        margin: 0.7rem 2rem;
     }
     .block-title {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 }
