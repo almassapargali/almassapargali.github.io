@@ -8,62 +8,74 @@
   <meta name=viewport content="width=device-width, initial-scale=1.0">
 
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="styles.min.css">
 </head>
 
 <body>
-  <header>
-    <h1>Almas Sapargali</h1>
-  </header>
+  <div id="content">
+    <header>
+      <h1 id="fullname">Almas Sapargali</h1>
+    </header>
 
-  <div class="section" id="hello">
-    <p class="section-title">Hello</p>
-    <p>
-      Hello, I'm an iOS and Ruby on Rails developer from Kazakhstan. I work as a freelancer for various clients across the world. By hiring me, you are not only hiring an coder, you're hiring an adviser to help make your product shine.
-    </p>
-    <p>
-      I care about high-quality code and delivering value to my clients. I take pride in every single app I've built, and want them be perfect. Below you can find some of my previous work.
-    <p>
-  </div> <!-- /#hello -->
-
-  <div class="section" id="portfolio">
-    <p class="section-title">My works</p>
-
-    <div class="portfolio-item">
-      <p class="portfolio-item-title">Wordbox</p>
-      <div class="portfolio-item-links">
-        <a href="http://wordboxapp.com" target="_blank">Website</a>
-        <a href="https://itunes.apple.com/us/app/wordbox-simple-beautiful-text/id674669080?mt=8" target="_blank">iTunes</a>
-      </div>
+    <div class="section" id="hello">
+      <p class="section-title">Hello</p>
       <p>
-        Wordbox is a beautiful text editor for iPhone. It supports Markdown, <a href="https://www.dropbox.com">Dropbox</a> synchronization, posting to various blogging platforms, themes, HTML/PDF export and many more features.
+        Hello, I'm an iOS and Ruby on Rails developer from Kazakhstan. I work as a freelancer for various clients across the world. By hiring me, you are not only hiring an coder, you're hiring an adviser to help make your product shine.
       </p>
       <p>
-        The most difficult part of building this application was implementing a reliable Dropbox synchronization.
-      </p>
-    </div> <!-- /.portfolio-item -->
-
-    <div class="portfolio-item">
-      <p class="portfolio-item-title">SimpleVisa USA</p>
-      <div class="portfolio-item-links">
-        <a href="http://get.simplevisa.com/usa/" target="_blank">Website</a>
-        <a href="https://itunes.apple.com/us/app/id861163051?mt=8" target="_blank">iTunes</a>
-      </div>
-      <p>Get your visas just by scanning your passport.</p>
+        I care about high-quality code and delivering value to my clients. I take pride in every single app I've built, and want them be perfect. Below you can find some of my previous work.
       <p>
-        When developing this app we used <a href="https://www.jumio.com">Jumio</a> for passport and credit card recognition. Wr used <a href="https://stripe.com">Stripe</a> to handle payments. And all of that was built on top of <a href="https://www.parse.com">Parse</a>, an excellent BaaS. I also wrote some Javascript on CloudCode for server side logic.
+    </div> <!-- /#hello -->
+
+    <div class="section" id="portfolio">
+      <p class="section-title">My works</p>
+
+      <div class="portfolio-item">
+        <p class="portfolio-item-title">Wordbox</p>
+
+        <div class="portfolio-item-links">
+          <a href="http://wordboxapp.com" target="_blank" class="button button-pill button-flat-primary button-small">Website</a>
+          <a href="https://itunes.apple.com/us/app/wordbox-simple-beautiful-text/id674669080?mt=8" target="_blank" class="button button-pill button-flat-primary button-small">iTunes</a>
+        </div> <!-- .portfolio-item-links -->
+
+        <div class="portfolio-item-desc">
+          <p>
+            Wordbox is a beautiful text editor for iPhone. It supports Markdown, <a href="https://www.dropbox.com">Dropbox</a> synchronization, posting to various blogging platforms, themes, HTML/PDF export and many more features.
+          </p>
+          <p>
+            The most difficult part of building this application was implementing a reliable Dropbox synchronization.
+          </p>
+        </div> <!-- .portfolio-item-desc -->
+
+      </div> <!-- /.portfolio-item -->
+
+      <div class="portfolio-item">
+        <p class="portfolio-item-title">SimpleVisa USA</p>
+
+        <div class="portfolio-item-links">
+          <a href="http://get.simplevisa.com/usa/" target="_blank" class="button button-pill button-flat-primary button-small">Website</a>
+          <a href="https://itunes.apple.com/us/app/id861163051?mt=8" target="_blank" class="button button-pill button-flat-primary button-small">iTunes</a>
+        </div> <!-- .portfolio-item-links -->
+
+        <div class="portfolio-item-desc">
+          <p>Get your visas just by scanning your passport.</p>
+          <p>
+            When developing this app we used <a href="https://www.jumio.com">Jumio</a> for passport and credit card recognition. We also used <a href="https://stripe.com">Stripe</a> to handle payments. And all of that was built on top of <a href="https://www.parse.com">Parse</a>, an excellent BaaS. I also wrote some Javascript on CloudCode for server side logic.
+          </p>
+        </div> <!-- .portfolio-item-desc -->
+
+      </div> <!-- /.portfolio-item -->
+
+    </div> <!-- /#portfolio -->
+
+    <div class="section" id="contact">
+      <p class="section-title">Get in touch</p>
+      <p>
+        Follow me on <a href="https://twitter.com/almassapargali">Twitter</a> or <a href="mailto:almassapargali@gmail.com" id='email'>email me</a>.
       </p>
-    </div> <!-- /.portfolio-item -->
-
-  </div> <!-- /#portfolio -->
-
-  <div class="section" id="contact">
-    <p class="section-title">Get in touch</p>
-    <p>
-      Follow me on <a href="https://twitter.com/almassapargali">Twitter</a> or <a href="mailto:almassapargali@gmail.com" id='email'>email me</a>.
-    </p>
-  </div> <!-- /#contact -->
+    </div> <!-- /#contact -->
+  </div>
 
   <footer></footer>
 
