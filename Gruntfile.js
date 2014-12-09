@@ -3,7 +3,7 @@ module.exports = function (grunt) {
 	grunt.initConfig({ 
         watch: {
           css: {
-            files: ['styles.css'],
+            files: ['styles.css', 'reset.css'],
             tasks: ['autoprefixer', 'cssmin']
           },
           html: {
@@ -15,12 +15,12 @@ module.exports = function (grunt) {
           css: {
               src: 'styles.css',
               dest: 'styles.prefixed.css'
-          }  
+          }
         },
         cssmin: {
           combine: {
             files: {
-              'styles.min.css': ['styles.prefixed.css']
+              'styles.min.css': ['reset.css', 'styles.prefixed.css', 'buttons.css']
             }
           }
         },
