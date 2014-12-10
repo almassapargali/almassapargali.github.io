@@ -2,6 +2,10 @@
 module.exports = function (grunt) {
 	grunt.initConfig({ 
         watch: {
+          sass: {
+            files: ['styles.scss'],
+            tasks: ['sass']
+          },
           css: {
             files: ['styles.css', 'reset.css'],
             tasks: ['autoprefixer', 'cssmin']
@@ -9,6 +13,17 @@ module.exports = function (grunt) {
           html: {
             files: ['index.src.html'],
             tasks: ['htmlmin']
+          }
+        },
+        sass: {
+          dist: {
+            options: {
+              debugInfo: true,
+              style: 'expanded'
+            },
+            files: {
+              'styles.css': 'styles.scss'
+            }
           }
         },
         autoprefixer: {
@@ -42,8 +57,9 @@ module.exports = function (grunt) {
 	});
     
 	grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-autoprefixer');
-    grunt.loadNpmTasks('grunt-contrib-htmlmin');
-	grunt.registerTask('default', ['autoprefixer', 'cssmin', 'htmlmin', 'watch']);
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.registerTask('default', ['autoprefixer', 'cssmin', 'htmlmin', 'watch', 'sass']);
 };

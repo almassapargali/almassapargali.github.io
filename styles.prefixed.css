@@ -1,86 +1,94 @@
 body {
-    margin: 0 auto;
-    max-width: 700px;
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 auto;
+  max-width: 700px;
 }
+
 div#wrapper {
-    margin: auto 2em;
+  margin: auto 2em;
 }
-header {
-    margin: 4em auto;
+
+a {
+  text-decoration: none;
 }
-header a {
-    color: black;
-}
-a#logo {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 3em;
-    font-weight: 700;
+@media (min-width: 1024px) {
+  a:hover {
+    text-decoration: underline;
+  }
 }
 a#logo:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
-li.header-link {
-    display: inline;
-    margin: auto 1em;
+
+header {
+  margin: 4em auto;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
-li.header-link a {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1.5em;
+header a {
+  color: black;
 }
-p {
-    font-size: 1.3em;
-    line-height: 1.5em;
-    font-weight: 400;
-    margin: 0.5em auto;
+header #logo {
+  font-size: 3em;
+  font-weight: 700;
 }
-p.section-title {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 2em;
-    line-height: 100%;
-    font-weight: 700;
-    margin: 1.2em auto 0.5em;
+header li.header-link {
+  display: inline;
+  margin: auto 1em;
+  font-size: 1.5em;
 }
-a {
-    color: #0881b3;
-    text-decoration: none;
+
+#content p {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin: 0.5em auto;
 }
-a:hover {
-    text-decoration:underline;
+#content p.section-title {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2em;
+  line-height: 100%;
+  font-weight: 700;
+  margin: 1.2em auto 0.5em;
 }
-p.portfolio-item-title {
-    font-weight: 600;
+#content p.portfolio-item-title {
+  font-weight: 600;
 }
-.portfolio-item-desc {
-    margin-left: 1em;
+#content a {
+  color: #191970;
 }
-.portfolio-item-links {
-    margin-left: 2em;
+#content .portfolio-item-desc {
+  margin-left: 1em;
 }
-.portfolio-item-links a {
-    font-size: 1.1em;
-    margin: auto 0.5em;
+#content .portfolio-item-links {
+  margin-left: 2em;
+  font-size: 1.1em;
 }
+#content .portfolio-item-links a {
+  margin: auto 0.5em;
+}
+
 footer {
-    margin: 3em auto;
-    text-align: center;
-    color: grey;
+  margin: 3em auto;
+  text-align: center;
+  color: grey;
 }
 footer a {
-    color: grey;
+  color: grey;
 }
 
 @media (max-width: 600px) {
-    header {
-        text-align: center;
-    }
-    ul#header-links {
-        margin: 1em auto;
-    }
+  header {
+    text-align: center;
+  }
+  header ul#header-links {
+    margin: 1em auto;
+  }
 }
 @media (min-width: 600px) {
-    ul#header-links {
-        float: right;
-        margin-top: 1em;
-    }
+  header ul#header-links {
+    float: right;
+    margin-top: 1em;
+  }
 }
+
+/*# sourceMappingURL=styles.css.map */
