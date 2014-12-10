@@ -20,7 +20,7 @@ module.exports = function (grunt) {
         cssmin: {
           combine: {
             files: {
-              'styles.min.css': ['reset.css', 'styles.prefixed.css', 'buttons.css']
+              'styles.min.css': ['reset.css', 'styles.prefixed.css']
             }
           }
         },

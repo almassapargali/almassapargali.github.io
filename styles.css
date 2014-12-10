@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     max-width: 700px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 div#content {
     margin: auto 2em;
@@ -8,13 +9,18 @@ div#content {
 header {
     margin: 4em auto;
 }
+header a {
+    color: black;
+}
+header a:hover {
+    text-decoration: none;
+}
 h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 3em;
     font-weight: 700;
 }
 p {
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
     font-weight: 400;
@@ -31,16 +37,27 @@ a {
     color: #0881b3;
     text-decoration: none;
 }
+a:hover {
+    text-decoration:underline;
+}
 p.portfolio-item-title {
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
 }
-div.portfolio-item-desc {
+.portfolio-item-desc {
     margin-left: 1em;
 }
-div.portfolio-item-links {
+.portfolio-item-links {
     margin-left: 2em;
 }
+.portfolio-item-links a {
+    font-size: 1.1em;
+    margin: auto 0.5em;
+}
 footer {
-    margin: 5em auto;
+    margin: 3em auto;
+    text-align: center;
+    color: grey;
+}
+footer a {
+    color: grey;
 }
