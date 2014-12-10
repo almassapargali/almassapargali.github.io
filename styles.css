@@ -6,9 +6,6 @@ body {
 div#wrapper {
     margin: auto 2em;
 }
-.clearfix {
-    overflow: auto;
-}
 header {
     margin: 4em auto;
 }
@@ -22,10 +19,6 @@ a#logo {
 }
 a#logo:hover {
     text-decoration: none;
-}
-ul#header-links {
-    float: right;
-    margin-top: 1em;
 }
 li.header-link {
     display: inline;
@@ -75,4 +68,19 @@ footer {
 }
 footer a {
     color: grey;
+}
+
+@media (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+    ul#header-links {
+        margin: 1em auto;
+    }
+}
+@media (min-width: 600px) {
+    ul#header-links {
+        float: right;
+        margin-top: 1em;
+    }
 }
