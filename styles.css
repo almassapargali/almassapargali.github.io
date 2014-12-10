@@ -1,48 +1,59 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000312}}
 body {
   font-family: "Josefin Sans", sans-serif;
   margin: 0 auto;
   max-width: 700px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000317}}
 div#wrapper {
   margin: auto 2em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000320}}
 a {
   text-decoration: none;
 }
 @media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000323}}
   a:hover {
     text-decoration: underline;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000327}}
 a#logo:hover {
   text-decoration: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000332}}
 header {
   margin: 4em auto;
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000335}}
 header a {
   color: black;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000338}}
 header #logo {
   font-size: 3em;
   font-weight: 700;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000342}}
 header li.header-link {
   display: inline;
   margin: auto 1em;
   font-size: 1.5em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000350}}
 #content p {
   font-size: 1.3em;
   line-height: 1.5em;
   font-weight: 400;
   margin: 0.5em auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000355}}
 #content p.section-title {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 2em;
@@ -50,41 +61,51 @@ header li.header-link {
   font-weight: 700;
   margin: 1.2em auto 0.5em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000362}}
 #content p.portfolio-item-title {
   font-weight: 600;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000366}}
 #content a {
-  color: #191970;
+  color: #e36896;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000369}}
 #content .portfolio-item-desc {
   margin-left: 1em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000372}}
 #content .portfolio-item-links {
   margin-left: 2em;
   font-size: 1.1em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000375}}
 #content .portfolio-item-links a {
   margin: auto 0.5em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000381}}
 footer {
   margin: 3em auto;
   text-align: center;
   color: grey;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000385}}
 footer a {
   color: grey;
 }
 
 @media (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000391}}
   header {
     text-align: center;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000393}}
   header ul#header-links {
     margin: 1em auto;
   }
 }
 @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/almassapargali\/code\/web\/almassapargali\.github\.io\/styles\.scss}line{font-family:\0000399}}
   header ul#header-links {
     float: right;
     margin-top: 1em;

@@ -18,8 +18,8 @@ module.exports = function (grunt) {
         sass: {
           dist: {
             options: {
-              debugInfo: true,
-              style: 'expanded'
+              style: 'expanded',
+              sourceMap: true
             },
             files: {
               'styles.css': 'styles.scss'
