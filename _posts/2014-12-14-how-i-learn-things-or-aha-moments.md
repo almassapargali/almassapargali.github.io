@@ -6,7 +6,7 @@ excerpt: How I learn new languages, frameworks or another lib.
 
 ---
 
-We always learning something. Be it new language, framework or another lib. And every one of us has its own methods to learn. I have got mine too. Here I'll write how how I learn and why I do so.
+We are always learning something. Be it new language, framework or another lib. And every one of us has its own methods to learn. I have got mine too. Here I'll write how how I learn and why I do so.
 
 ## 3 years ago...
 
