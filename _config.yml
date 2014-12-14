@@ -5,8 +5,9 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 url: "http://almassapargali.com" # the base hostname & protocol for your site
-
 email: almassapargali@gmail.com
+
+google_analytics_id: UA-46843484-1
 
 host: 0.0.0.0
 exclude: ['Rakefile', 'Gruntfile.js', 'package.json', 'node_modules']
