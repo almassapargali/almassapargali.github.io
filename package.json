@@ -1,14 +1,14 @@
 {
-  "name": "almassapargali.github.io",
+  "name": "almassapargali.com",
   "private": true,
-  "version": "0.0.2",
-  "description": "Source code of http://almassapargali.com",
+  "version": "0.0.1",
+  "description": "Grunt task for livereload",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/almassapargali/almassapargali.github.io.git"
   },
-  "author": "Almas Sapargali, Nikita Bayev",
+  "author": "Almas Sapargali",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/almassapargali/almassapargali.github.io/issues"
@@ -16,10 +16,6 @@
   "homepage": "https://github.com/almassapargali/almassapargali.github.io",
   "dependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-cssmin": "~0.7.0",
-    "grunt-autoprefixer": "~0.6.4",
-    "grunt-contrib-htmlmin": "~0.1.3",
-    "grunt-contrib-sass": "^0.8.1"
-  },
+    "grunt-contrib-watch": "~0.6.1"
+  }
 }

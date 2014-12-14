@@ -1,0 +1,13 @@
+#projects-page {
+  .name {
+    text-align: center;
+    margin: $spacing-unit / 2 auto 2px;
+  }
+  .links {
+    text-align: center;
+    margin-bottom: $spacing-unit / 3;
+    a {
+      margin: auto 10px;
+    }
+  }
+}

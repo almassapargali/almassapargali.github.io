@@ -1,0 +1,142 @@
+/**
+ * Site header
+ */
+#site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    text-align: center;
+
+    .site-title {
+        font-family: $header-font-family;
+        font-size: $base-font-size * 3;
+
+        &,
+        &:visited {
+            color: $grey-color-dark;
+        }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .links {
+        margin: 20px auto;
+        .link {
+            display: inline;
+            margin: auto 10px;
+            font-size: $base-font-size * 1.1;
+            a,
+            a:visited {
+                color: $text-color;
+            }
+        }
+    }
+}
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    font-size: $small-font-size;
+    color: $grey-color;
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+    text-align: center;
+}
+
+
+/**
+ * Page content
+ */
+.content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+
+    &,
+    &:visited {
+        color: $text-color;
+    }
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit * 1.5;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.post-afterwords {
+    margin: $spacing-unit auto;
+    font-size: $small-font-size;
+    font-style: italic;
+    p {
+        margin: 0 auto;
+    }
+}

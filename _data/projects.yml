@@ -1,0 +1,20 @@
+-
+  name: Wordbox
+  links:
+    - name: Website
+      url: http://wordboxapp.com/
+    - name: iTunes
+      url: https://itunes.apple.com/us/app/wordbox-simple-beautiful-text/id674669080?mt=8
+  paragraphs:
+    - Wordbox is a beautiful text editor for iPhone. It supports Markdown, Dropbox synchronization, posting to various blogging platforms, themes, HTML/PDF export and many more features.
+    - The most difficult part of building this application was implementing a reliable Dropbox synchronization.
+-
+  name: 'SimpleVisa USA'
+  links:
+    - name: Website
+      url: http://get.simplevisa.com/usa/
+    - name: iTunes
+      url: https://itunes.apple.com/us/app/id861163051?mt=8
+  paragraphs:
+    - Get your visas just by scanning your passport.
+    - When developing this app we used Jumio for passport and credit card recognition. We also used Stripe to handle payments. And all of that was built on top of Parse, an excellent BaaS. I also wrote some Javascript on CloudCode for server side logic.

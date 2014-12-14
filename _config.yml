@@ -1,0 +1,15 @@
+# Site settings
+title: Almas Sapargali
+description: >
+  Hello, I'm an iOS and Ruby on Rails developer from Kazakhstan.
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+url: "http://almassapargali.com" # the base hostname & protocol for your site
+
+email: almassapargali@gmail.com
+
+host: 0.0.0.0
+exclude: ['Rakefile', 'Gruntfile.js', 'package.json', 'node_modules']
+
+# Build settings
+markdown: kramdown
