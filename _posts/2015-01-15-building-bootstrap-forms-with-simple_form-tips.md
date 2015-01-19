@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building Boostrap forms with simple_form tips
+title: Building Bootstrap forms with simple_form tips
 categories:
 excerpt: Building bootstrap forms with simple_form like a boss
 
