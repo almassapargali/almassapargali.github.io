@@ -1,7 +1,7 @@
 <div class="post-afterwords">
   <p>
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% elsif site.permalink contains category_dir %}{{ '/' | page.url | remove:'index.html' | '/' }}{% else %}{{ page.url | remove:'index.html' | '/' }}{% endif %}{% endcapture %}
-  <a href="https://twitter.com/intent/tweet?url={{ canonical }}&text={% if page.title %}{{ page.title | escape | truncate:80 | replace:' ','%20' }}{% else %}{{ site.title | escape | truncate:80 | replace:' ','%20' }}{% endif %}&via={{site.twitter}}">Share this one twitter</a>
+  <a href="https://twitter.com/intent/tweet?url={{ canonical }}&text={% if page.title %}{{ page.title | escape | truncate:80 | replace:' ','%20' }}{% else %}{{ site.title | escape | truncate:80 | replace:' ','%20' }}{% endif %}&via={{site.twitter}}">Share this on twitter</a>
   </p>
   <p>
     If you have any comment or feedback email me at <a href="mailto:{{site.email}}">{{site.email}}</a> or write me at twitter: <a href="https://twitter.com/{{site.twitter}}">@{{site.twitter}}</a>.
