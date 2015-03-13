@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Building Bootstrap forms with simple_form tips
+title: Build Bootstrap forms with simple_form in Ruby on Rails
 categories:
-excerpt: Building bootstrap forms with simple_form like a boss
+excerpt: Build bootstrap forms with simple_form in Ruby on Rails
 
 ---
 
