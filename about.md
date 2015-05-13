@@ -3,9 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hello, I'm an iOS and Ruby on Rails developer from Kazakhstan. I work as a freelancer for various clients across the world. By hiring me, you are not only hiring an coder, you're hiring an adviser to help make your product shine.
 
-I care about high-quality code and delivering value to my clients. I take pride in every single app I've built, and want them be perfect. [Here](/projects) you can take a look at my previous projects.
+Hello, I'm an software developer from Kazakhstan. I run [Salsabil](http://salsabilhq.com), mobile &amp; web development agency. We work for various clients across the world.
+
+Previously I worked as freelancer iOS &amp; Rails developer. [Here](/projects) you can take a look at my previous projects. I care about high-quality code and delivering value to my clients. I take pride in every single app I've built, and want them be perfect.
 
 ## What my clients says
 
