@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello, I'm an software developer from Kazakhstan. I run [Fantastic Company](http://fantasticcompany.co), mobile &amp; web development agency. We work for various clients across the world.
-
-Previously I worked as freelancer iOS &amp; Rails developer. [Here](/projects) you can take a look at my projects built for clients. I care about high-quality code and delivering value to my clients. I take pride in every single app I've built, and want them be perfect.
+Hello, I'm an independent software developer from Kazakhstan. I build iOS apps using Swift, and web backends with [Phoenix](http://www.phoenixframework.org). I've worked with various clients across the world. [Here](/projects) you can take a look at some of my projects. I care about high-quality code and delivering value to my clients. I take pride in every single app I've built, and want them be perfect.
 
 ## What my clients says
 
