@@ -37,3 +37,17 @@
   paragraphs:
     - OpenRuns is a platform that organizes pickup basketball games anywhere in the world, allowing users to create, search, and join games based on location, date, and skill level.
     - I've developer iOS, and backend on this project, and helped to build Android version. Initially built with Parse, but, it wasn't flexible enought for our needs, so I've rewrote backend using Elixir/Phoenix. Migrating data from Parse without disturbing our users was a bit challenging, but everything went great. Also I've used websockets to build chat on this app.
+-
+  name: LocationPicker (Open source)
+  link:
+    - name: GitHub
+      url: https://github.com/almassapargali/LocationPicker
+  paragraphs:
+    - This is open source iOS control I've built for OpenRuns. It is a UIViewController subclass which lets users choose location by searching or selecting on map. It's designed to work similar to UIImagePickerController.
+-
+  name: PhoenixWebSocket (Open source)
+  link:
+    - name: GitHub
+      url: https://github.com/almassapargali/PhoenixWebSocket
+  paragraphs:
+    - This is another open source Swift framework I've built for chat feature on OpenRuns. It is a  client library for Phoenix Framework websockets. It heavily uses Swift enums and strives to be simple to use.
