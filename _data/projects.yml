@@ -27,3 +27,13 @@
     - Make mobile apps for your e-commerce site, blog, or small business in about 10 minutes.
     - AppEase is a code-free way to make a beautiful mobile app in minutes. Built with Rails as single page web application, it allows you to generate iOS and Android apps without coding. Apps support various features, like push notifications, geo based notificaitons, social stream embedding many social networks, analytics, and many more.
     - I've built native clients for iOS and Android, and website using Ruby on Rails. Also, I've learned a lot about build automatization, Xcode project structures, etc.
+-
+  name: Openruns
+  link:
+    - name: Website
+      url: http://openrunsapp.com
+    - name: iTunes
+      url: https://itunes.apple.com/us/app/openruns/id1038801937?mt=8
+  paragraphs:
+    - OpenRuns is a platform that organizes pickup basketball games anywhere in the world, allowing users to create, search, and join games based on location, date, and skill level.
+    - I've developer iOS, and backend on this project, and helped to build Android version. Initially built with Parse, but, it wasn't flexible enought for our needs, so I've rewrote backend using Elixir/Phoenix. Migrating data from Parse without disturbing our users was a bit challenging, but everything went great. Also I've used websockets to build chat on this app.
