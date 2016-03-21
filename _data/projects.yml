@@ -29,7 +29,7 @@
     - I've built native clients for iOS and Android, and website using Ruby on Rails. Also, I've learned a lot about build automatization, Xcode project structures, etc.
 -
   name: Openruns
-  link:
+  links:
     - name: Website
       url: http://openrunsapp.com
     - name: iTunes
@@ -39,14 +39,14 @@
     - I've developer iOS, and backend on this project, and helped to build Android version. Initially built with Parse, but, it wasn't flexible enought for our needs, so I've rewrote backend using Elixir/Phoenix. Migrating data from Parse without disturbing our users was a bit challenging, but everything went great. Also I've used websockets to build chat on this app.
 -
   name: LocationPicker (Open source)
-  link:
+  links:
     - name: GitHub
       url: https://github.com/almassapargali/LocationPicker
   paragraphs:
     - This is open source iOS control I've built for OpenRuns. It is a UIViewController subclass which lets users choose location by searching or selecting on map. It's designed to work similar to UIImagePickerController.
 -
   name: PhoenixWebSocket (Open source)
-  link:
+  links:
     - name: GitHub
       url: https://github.com/almassapargali/PhoenixWebSocket
   paragraphs:
